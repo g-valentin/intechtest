@@ -1,0 +1,121 @@
+@font-face{
+    font-family:IBMPlexSansMedium;
+    src:url(../assets/fonts/IBMPlexSans-Medium.ttf)
+}
+@font-face{
+    font-family:IBMPlexSansLightItalic;
+    src:url(../assets/fonts/IBMPlexSans-LightItalic.ttf)
+}
+.navbar{
+	height:106px;
+	line-height:106px;
+}
+.nav-fixed-top{
+	background-image:url(../assets/img/TopBar.png);
+}
+header.page{
+	background:-webkit-linear-gradient(235deg,rgba(82,22,170,1) 0,rgba(28,0,59,1) 100%);
+	background:-o-linear-gradient(235deg,rgba(82,22,170,1) 0,rgba(28,0,59,1) 100%);
+	background:-moz-linear-gradient(235deg,rgba(82,22,170,1) 0,rgba(28,0,59,1) 100%);
+	background:-ms-linear-gradient(235deg,rgba(82,22,170,1) 0,rgba(28,0,59,1) 100%);
+	padding-top:152px;
+	padding-bottom:120px;
+}
+.floating{
+	animation:float 4s ease-in-out infinite;
+	-webkit-animation:float 4s ease-in-out infinite;
+	-o-animation: float 4s ease-in-out infinite;
+	-ms-animation: float 4s ease-in-out infinite;
+	-moz-animation:float 4s ease-in-out infinite;
+}
+h1{	
+	font-size:40px;
+	margin-bottom:37px;
+	
+}
+.logo{
+	position: absolute;
+	top:0%;
+	left: 12%;
+}
+.blockquote cite{
+    display:block;
+    font-size:16px;
+    font-family:IBMPlexSansMedium;
+    font-style:normal
+}
+.blockquote p{
+    font-size:17px;
+    font-family:IBMPlexSansLightItalic;
+    line-height:26px;
+    margin:0;
+    padding-bottom:30px
+}
+.blockquote span{
+	color:#ada9a8;
+}
+.arrow{
+	position:relative;
+	display:inline-block;
+	width:16px;
+	height:16px;
+	border-right:1px solid white;
+	border-top:1px solid white;
+	cursor:pointer;
+}
+.arrow-left{
+	-webkit-transform:rotate(-135deg);
+	-ms-transform:rotate(-135deg);
+	transform:rotate(-135deg);
+	margin-right:60px
+}
+.about-text{
+	font-size:18px;
+	font-weight:500
+}
+.arrow-right{
+	-webkit-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	transform:rotate(45deg)
+}
+.about-header{
+	font-size:45px
+}
+.about{
+	margin-top:151px;
+	margin-bottom:100px
+}
+.about article{
+	color:#1c003b;
+}
+.footer-section{
+	height:35px;
+	background:#5216aa;
+	background:-o-linear-gradient(191deg,rgba(82,22,170,1) 0,rgba(28,0,59,1) 100%);
+	background:linear-gradient(-101deg,rgba(82,22,170,1) 0,rgba(28,0,59,1) 100%)
+}
+@-webkit-keyframes float{
+    0%{
+		-webkit-transform:translatey(0);
+		transform:translatey(0)
+    }
+    50%{
+        -webkit-transform:translatey(-5px);
+    }
+    100%{
+        -webkit-transform:translatey(0);
+    }
+}
+@keyframes float{
+    0%{
+		-webkit-transform:translatey(0);
+		transform:translatey(0)
+    }
+    50%{
+        -webkit-transform:translatey(-4px);
+    }
+    100%{
+		-webkit-transform:translatey(0);
+		transform:translatey(0)
+    }
+}
